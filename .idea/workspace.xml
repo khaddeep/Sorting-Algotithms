@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ada9a9a7-12b2-44e5-9f09-58041f12a50b" name="Default Changelist" comment="" />
+    <list default="true" id="ada9a9a7-12b2-44e5-9f09-58041f12a50b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/isu/cs2235/algorithms/impl/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.0/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.0/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.0/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.0/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.0/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.0/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/isu/cs2235/algorithms/impl/HybridSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/isu/cs2235/algorithms/impl/HybridSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/isu/cs2235/algorithms/impl/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/isu/cs2235/algorithms/impl/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/edu.isu.cs2235.algorithms.impl.HybridSortTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/edu.isu.cs2235.algorithms.impl.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/edu.isu.cs2235.algorithms.impl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-edu.isu.cs2235.algorithms.impl.HybridSortTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/isu/cs2235/algorithms/impl/HybridSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/isu/cs2235/algorithms/impl/HybridSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/isu/cs2235/algorithms/impl/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/isu/cs2235/algorithms/impl/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/isu/cs2235/algorithms/impl/TimSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/isu/cs2235/algorithms/impl/TimSort.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +43,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1RGVjeQtnKbPAt0ugEOIl3SYqU5" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -36,8 +62,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java/edu/isu/cs2235/algorithms/impl" />
       <recent name="$PROJECT_DIR$/src/main/java/edu/isu/cs2235/algorithms/impl" />
+      <recent name="$PROJECT_DIR$/src/test/java/edu/isu/cs2235/algorithms/impl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -52,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.HybridSortTest">
+  <component name="RunManager" selected="Gradle.TimSortTest">
     <configuration name="HybridSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -93,12 +119,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuickSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MergeSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;edu.isu.cs2235.algorithms.impl.QuickSortTest&quot; --info" />
+        <option name="scriptParameters" value="--tests &quot;edu.isu.cs2235.algorithms.impl.MergeSortTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -155,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TimSortTest" />
+        <item itemvalue="Gradle.MergeSortTest" />
         <item itemvalue="Gradle.HybridSortTest" />
         <item itemvalue="Gradle.InsertionSortTest" />
         <item itemvalue="Gradle.SelectionSortTest" />
-        <item itemvalue="Gradle.QuickSortTest" />
-        <item itemvalue="Gradle.TimSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -184,10 +210,25 @@
       <workItem from="1569393392386" duration="1230000" />
       <workItem from="1569430196066" duration="7482000" />
       <workItem from="1569479838218" duration="8589000" />
+      <workItem from="1569489562651" duration="85000" />
+      <workItem from="1569510771090" duration="12803000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

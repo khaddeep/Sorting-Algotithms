@@ -3,8 +3,6 @@ package edu.isu.cs2235.algorithms.impl;
 import edu.isu.cs2235.algorithms.ArraySort;
 
 import java.util.Arrays;
-import java.util.List;
-import java.util.Objects;
 
 public class MergeSort implements ArraySort {
     @Override
@@ -12,62 +10,55 @@ public class MergeSort implements ArraySort {
         if (array==null){
             throw new IllegalArgumentException();
         }
-        E[] copy=copyArray(array);
-      mergeSort(copy,array,0,array.length-1);
+E[] newArray=Arrays.copyOf(array,array.length);
+      mergeSort(newArray,array,0,array.length-1);
     }
 
     public <E> E[] copyArray(E[] otherArray) {
         E[] array = Arrays.copyOf(otherArray, otherArray.length);
-        return array;
+        return  array;
     }
 
-    public <E extends Comparable> void mergeSort(E[]array,E[] result, E start,E end){
-        if (end.compareTo(start)==0){
+    public <E extends Comparable> void mergeSort(E[]array,E[] result, int start,int end) {
+        if (end==start) {
             return;
         }
-        if (((int)end-(int)start)<2) {
-            if (result[(int) start].compareTo(result[(int) end]) > 0) {
+        if (( end - start) < 2) {
+            if (result[start].compareTo(result[end]) ==1) {
                 swap(result, start, end);
             }
             return;
         }
-            int mid = ((int) end - (int) start) / 2 + (int) start;
+
+            int mid = (end - start) / 2 + start;
             mergeSort(result, array, start, mid);
             mergeSort(result, array, mid + 1, end);
-        for (int i=(int)start;i<=(int)end;i++){
-            result[i]=array[i];
-        }
-            int i = (int) start;
-            int j = mid + 1;
-            int k=(int)start;
 
-            while (i<=mid && j<=(int)end){
-                if (result[i].compareTo(result[j])<=0){
-                    array[k]=result[k];
-                    i++;
-                }
-                else {
-                    array[k]=result[j];
-                    j++;
-                }
-                k++;
-            }
-            while (i<=mid){
-                array[k]=result[i];
-                i++;
-                k++;
-            }
-        }
-    public <E extends Comparable> void swap(E[]array,E first,E second){
-        E temp=array[(int)first];
-        array[(int)first]=array[(int)second];
-        array[(int)second]=temp;
+int i =start;
+int j=mid+1;
+for (int index=start;index<=end;index++){
+    if (j>end||(i<=mid && array[i].compareTo(array[j])==-1)){
+        result[index]=array[i];
+        i++;
+    }else{
+       result[index]=array[j];
+       j++;
     }
-    public <E extends Comparable> E[] copy(E[]array,E start,E end){
-        E[] newAr=(E[])new Object[(int) start - (int) end + 1];
-        for (int i=(int)start;i<(int)end;i++){
-           newAr[i]=array[i];
+}
+    }
+
+    public <E extends Comparable> void swap(E[]array,int first,int second){
+        E temp=array[first];
+        array[first]=array[second];
+        array[second]=temp;
+    }
+/*
+    public <E extends Comparable> E[] copy(E[]array,int start,int end){
+        E[] newAr= Arrays.copyOf(array,array.length);
+        for (int i=start;i<end;i++){
+           newAr[i]=array[start];
         }
         return newAr;
     }
+ */
 }

@@ -9,12 +9,12 @@ public class HybridSort implements ArraySort {
         if (array == null) {
             throw new IllegalArgumentException();
         } else {
-            quickSorting(array, 0, array.length - 1);
+            hybridSort(array, 0, array.length - 1);
         }
     }
 
-    public <E extends Comparable> void quickSorting(E[] array,E first, E last){
-        int size=(int)last+1-(int)first;
+    public <E extends Comparable> void hybridSort(E[] array, E first, E last){
+        int size=(int)last-(int)first+1;
         if ((int)first<=10){
             insertionSort.insert(array,first,last);
         }else {
